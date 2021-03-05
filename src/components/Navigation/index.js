@@ -18,7 +18,7 @@ const Navigation = () => (
 const NavigationAuth = ({ authUser }) => (
   <nav className="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
     <div className="container">
-      <div>
+      {/* <div>
         <Nav.Item
           as="li"
           className="navbar-brand js-scroll-trigger"
@@ -28,7 +28,7 @@ const NavigationAuth = ({ authUser }) => (
             <img className="navbar-brand js-scroll-trigger" src={logoletters} />{" "}
           </Link>
         </Nav.Item>
-      </div>
+      </div> */}
       <button
         className="navbar-toggler navbar-toggler-right"
         type="button"
@@ -74,7 +74,11 @@ const NavigationNonAuth = () => (
         href="#page-top"
       >
         <Link to={ROUTES.LANDING}>
-          <img className="navbar-brand js-scroll-trigger" src={logoletters} />
+          <img
+            className="navbar-brand js-scroll-trigger"
+            style={{ width: 60 }}
+            src={logoletters}
+          />
         </Link>
       </Nav.Item>
       <button

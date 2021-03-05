@@ -2,18 +2,6 @@ import app from "firebase/app";
 import "firebase/auth";
 import "firebase/database";
 
-// const config = {
-//   apiKey: "AIzaSyA7xZcSN7j2YlnOa48aFnWfbsFXBUPNqyU",
-//   authDomain: "revit-b9ab4.firebaseapp.com",
-//   databaseURL: "https://revit-b9ab4.firebaseio.com",
-//   projectId: "revit-b9ab4",
-//   storageBucket: "revit-b9ab4.appspot.com",
-//   messagingSenderId: "1063119895592",
-//   // appId: "1:1063119895592:web:7b269871d55f0e079dc91d",
-//   // measurementId: "G-49TZQ3S4M5",
-// };
-console.log(process.env);
-
 const config = {
   apiKey: process.env.REACT_APP_API_KEY,
   authDomain: process.env.REACT_APP_AUTH_DOMAIN,

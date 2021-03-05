@@ -10,12 +10,10 @@ function Header() {
         <div className="container">
           <div className="intro-text">
             <div className="intro-lead-in">Welcome To Our Studio!</div>
-            <div>
+            {/* <div>
               <img className="navbar-brand js-scroll-trigger" src={logowhite} />{" "}
-            </div>
-            <h4 className="section-subheading intro-lead-in">
-              Software Development Services
-            </h4>
+            </div> */}
+            {/* <h4 className="section-subheading intro-lead-in">BevaCode</h4> */}
             {/* 
             <button
               onClick={() => history.push("/signin")}
