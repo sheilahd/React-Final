@@ -9,7 +9,9 @@ function Header() {
       <header className="masthead">
         <div className="container">
           <div className="intro-text">
-            <div className="intro-lead-in">Welcome To Our Studio!</div>
+            <h4 className="section-subheading intro-lead-in">BevaCode</h4>
+
+            <div className="intro-lead-in">Web Development Services</div>
             {/* <div>
               <img className="navbar-brand js-scroll-trigger" src={logowhite} />{" "}
             </div> */}
