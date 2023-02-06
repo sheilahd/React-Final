@@ -1,6 +1,6 @@
 import React from "react";
 import { useHistory } from "react-router-dom";
-import logowhite from "../../assets/img/cards/logowhite.png";
+import logowhite from "../../assets/img/cards/logowhitesmall.png";
 
 function Header() {
   const history = useHistory();

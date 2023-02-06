@@ -5,7 +5,7 @@ import SignOutButton from "../SignOut";
 import * as ROUTES from "../../constants/routes";
 import * as ROLES from "../../constants/roles";
 import Nav from "react-bootstrap/Nav";
-import logoletters from "../../assets/img/cards/logoletters.png";
+import logoletters from "../../assets/img/cards/logowhitesmall.png";
 
 const Navigation = () => (
   <AuthUserContext.Consumer>
